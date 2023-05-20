@@ -1,0 +1,119 @@
+.Footer {
+    background-color: #055389;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 103px;
+}
+
+.company_name {
+    left: 0;
+}
+
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+
+}
+
+.footer_right {
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    justify-content: space-between;
+
+}
+
+.right_top {
+    display: flex;
+}
+.right_top_block{
+    width: 244px;
+    margin: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right_top_block h3{
+    margin: 11px 0;
+}
+
+.right_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+}
+
+.footer_left h2,
+.right_top_block h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer_left h3,
+.right_top_block h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contact_blocks {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.email_search_box {
+    margin-bottom: 25px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.email_search_box input {
+    width: 370px;
+    border-radius: 10px 0 0 10px ;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+
+.email_search_box button {
+    background: #02365A;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    height: 40px;
+    color: white;
+    outline: none;
+    padding: 0 17px;
+
+}
+
+.footer_left h3 {
+    margin: 0;
+}
+
+.app_play_store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    width: 75%;
+}
+
+.app_play_store img {
+    margin: 12px 0;
+}
+
+.contact_blocks h3{
+    margin: 0;
+    text-align: left;
+}
